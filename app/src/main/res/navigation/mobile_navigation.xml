@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.ccc.cmaradecomerciodecasanare.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_certificados"
+        android:name="com.ccc.cmaradecomerciodecasanare.ui.certificados.CertificadosFragment"
+        android:label="Certificados Electrónicos"
+        tools:layout="@layout/fragment_certificados" />
+
+    <fragment
+        android:id="@+id/nav_renovacion"
+        android:name="com.ccc.cmaradecomerciodecasanare.ui.renovacion.RenovacionFragment"
+        android:label="Renovación Virtual"
+        tools:layout="@layout/fragment_renovacion" />
+
+    <fragment
+        android:id="@+id/nav_consulta"
+        android:name="com.ccc.cmaradecomerciodecasanare.ui.consultas.ConsultasFragment"
+        android:label="Consulta de Nombres"
+        tools:layout="@layout/fragment_consultas" />
+
+    <fragment
+        android:id="@+id/nav_tramites"
+        android:name="com.ccc.cmaradecomerciodecasanare.ui.tramites.TramitesFragment"
+        android:label="Consulta de Trámites"
+        tools:layout="@layout/fragment_tramites" />
+
+    <fragment
+        android:id="@+id/nav_turnos"
+        android:name="com.ccc.cmaradecomerciodecasanare.ui.turnos.TurnosFragment"
+        android:label="Turnos"
+        tools:layout="@layout/fragment_turnos" />
+
+    <fragment
+        android:id="@+id/nav_eventos"
+        android:name="com.ccc.cmaradecomerciodecasanare.ui.eventos.EventosFragment"
+        android:label="Eventos"
+        tools:layout="@layout/fragment_eventos" />
+
+    <fragment
+        android:id="@+id/nav_salones"
+        android:name="com.ccc.cmaradecomerciodecasanare.ui.salones.SalonesFragment"
+        android:label="Salones"
+        tools:layout="@layout/fragment_salones" />
+
+    <fragment
+        android:id="@+id/nav_sedes"
+        android:name="com.ccc.cmaradecomerciodecasanare.ui.sedes.SedesFragment"
+        android:label="Sedes"
+        tools:layout="@layout/fragment_sedes" />
+
+    <fragment
+        android:id="@+id/nav_contactenos"
+        android:name="com.ccc.cmaradecomerciodecasanare.ui.contactenos.ContactenosFragment"
+        android:label="Contáctenos"
+        tools:layout="@layout/fragment_contactenos" />
+
+</navigation>

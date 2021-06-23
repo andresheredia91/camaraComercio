@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorWhite"
+    android:layout_height="wrap_content"
+    tools:context=".ui.contactenos.ContactenosFragment">>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <GridLayout
+            android:layout_width="315dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_margin="50dp"
+            android:alignmentMode="alignMargins"
+            android:background="@color/colorWhite"
+            android:columnCount="4"
+            android:columnOrderPreserved="false"
+            android:rowCount="4">
+
+            <androidx.cardview.widget.CardView
+
+                android:id="@+id/facebook"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="4dp"
+                android:background="@color/colorWhite"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/buttonFacebook"
+                        android:layout_width="57dp"
+                        android:layout_height="57dp"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:background="@color/colorWhite"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/facebook" />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+                android:id="@+id/twitter"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="4dp"
+                android:background="@color/colorWhite"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/buttonTwitter"
+                        android:layout_width="57dp"
+                        android:layout_height="57dp"
+                        android:layout_gravity="center"
+                        android:background="@color/colorWhite"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/twitter" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+                android:id="@+id/instagram"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="4dp"
+                android:background="@color/colorWhite"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/buttonInstagram"
+                        android:layout_width="57dp"
+                        android:layout_height="57dp"
+                        android:layout_gravity="center"
+                        android:background="@color/colorWhite"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/instagram" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+                android:id="@+id/youtube"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="4dp"
+                android:background="@color/colorWhite"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/buttonYoutube"
+                        android:layout_width="58dp"
+                        android:layout_height="58dp"
+                        android:layout_gravity="center"
+                        android:background="@color/colorWhite"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/you" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Servicio al Cliente"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="+ 57 8 6345955"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="WhatsApp Institucional"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="310 201 6000"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <Button
+                android:id="@+id/buttonCCC"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="web"
+                android:background="@drawable/button1"
+                android:text="www.cccasanare.co"
+                android:textColor="@color/colorWhite" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/buttonContactenos"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autoLink="email"
+                android:background="@drawable/button1"
+                android:text="contactenos@cccasanare.co" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@drawable/logo" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

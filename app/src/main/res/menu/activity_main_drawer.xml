@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home1"
+            android:title="Inicio"/>
+
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:title="Servicios en Linea">
+
+            <menu>
+
+                <item
+                    android:id="@+id/nav_certificados"
+                    android:icon="@drawable/reno"
+                    android:title="Certificados Electrónicos"
+                    />
+
+                <item
+                    android:id="@+id/nav_renovacion"
+                    android:icon="@drawable/certificados1"
+                    android:title="Renovación Virtual " />
+
+                <item
+                    android:id="@+id/nav_consulta"
+                    android:icon="@drawable/consultadenombres1"
+                    android:title="Consulta de Nombres" />
+
+                <item
+                    android:id="@+id/nav_tramites"
+                    android:icon="@drawable/consultadenombres1"
+                    android:title="Consulta de Trámites" />
+
+                <item
+                    android:id="@+id/nav_turnos"
+                    android:icon="@drawable/turno"
+                    android:title="Turnos" />
+
+            </menu>
+
+        </item>
+
+    </group>
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:title="Información">
+
+            <menu>
+
+                <item
+                    android:id="@+id/nav_eventos"
+                    android:icon="@drawable/eventos"
+                    android:title="Eventos" />
+
+                <item
+                    android:id="@+id/nav_salones"
+                    android:icon="@drawable/sedes"
+                    android:title="Salones" />
+
+                <item
+                    android:id="@+id/nav_sedes"
+                    android:icon="@drawable/sedes1"
+                    android:title="Sedes" />
+
+                <item
+                    android:id="@+id/nav_contactenos"
+                    android:icon="@drawable/contacto1"
+                    android:title="Contáctenos" />
+
+            </menu>
+
+        </item>
+
+    </group>
+
+</menu>
